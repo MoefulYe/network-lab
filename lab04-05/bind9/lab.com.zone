@@ -1,0 +1,10 @@
+$TTL 10M
+@   IN    SOA    lab.com.zone (
+        0       ; serial
+        1D      ; refresh
+        1H      ; retry
+        1W      ; expire
+        3H )    ; minimum
+
+; where is apache
+apache A 172.17.0.3
